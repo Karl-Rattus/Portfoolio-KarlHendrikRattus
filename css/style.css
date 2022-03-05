@@ -23,7 +23,7 @@ header {
     text-align: center;
 }
 
-.nav_list {
+nav {
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -43,4 +43,12 @@ header {
 
 .instagram-behance {
     color: #F6F6F6;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
 }
