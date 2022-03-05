@@ -1,0 +1,46 @@
+:root {
+    --color-primary: #232324;
+    --color-light: #F6F6F6;
+    --grid: 1fr;
+}
+
+body {
+    margin: 0;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-family: gopher, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+    background: #232324;
+    color: var(--color-primary);
+}
+
+header {
+    background-color: #F6F6F6;
+    padding: 1em;
+    text-align: center;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 1em;
+    padding: 0;
+    list-style: none;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.instagram-behance {
+    color: #F6F6F6;
+}
