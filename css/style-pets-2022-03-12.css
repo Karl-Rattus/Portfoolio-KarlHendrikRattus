@@ -1,0 +1,51 @@
+
+
+body {
+    margin: 0;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-family: gopher, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+    background: #232324;
+    color: var(--color-primary);
+}
+
+header {
+    background-color: #232324;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    font-family: roc-grotesk-wide, sans-serif;
+}
+
+.nav-item {
+    margin-left: 3rem;
+}
+
+
+.logo-text{
+    font-size: 48px;
+}
+
+.frontpage-menu {
+    height: 100vh;
+}
+
+.hero-gradient {
+    background: rgb(35,35,36);
+    background: linear-gradient(180deg, rgba(35,35,36,1) 78%, rgba(231,231,232,1) 100%);
+
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
