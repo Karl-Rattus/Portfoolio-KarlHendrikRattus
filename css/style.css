@@ -1,9 +1,3 @@
-:root {
-    --color-primary: #232324;
-    --color-light: #F6F6F6;
-    --grid: 1fr;
-}
-
 body {
     margin: 0;
     font-family: roc-grotesk-wide, sans-serif;
@@ -24,22 +18,26 @@ header {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    margin-top: 1em;
-    padding: 0;
-    list-style: none;
-    font-size: 1.125rem;
-    text-transform: uppercase;
+    font-family: roc-grotesk-wide, sans-serif;
     font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
-    color: inherit;
+    font-style: normal;
 }
 
-.instagram-behance {
-    color: #F6F6F6;
+.nav-item {
+    margin-left: 3rem;
+}
+
+.logo-text {
+    font-size: 48px;
+}
+
+.frontpage-menu {
+    height: 100vh;
+}
+
+.hero-gradient {
+    background: rgb(35, 35, 36);
+    background: linear-gradient(180deg, rgba(35, 35, 36, 1) 35%, rgba(134, 134, 134, 1) 77%, rgba(246, 246, 246, 1) 100%);
 }
 
 h1 {
