@@ -7,10 +7,6 @@
     <title>Rattus</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
     <!-- Adobe Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/xrs5pkc.css">
 
@@ -26,14 +22,10 @@
         }
         
         .nav-link {
-            display: block;
-            padding: 0.5rem 1rem;
             color: #F6F6F6;
-            text-decoration: none;
-            transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
         }
         
-        a {
+        .a {
             color: #F6F6F6;
             text-decoration: none;
             background-color: transparent;
@@ -44,13 +36,13 @@
 </head>
 
 
-<body class="home">
+<body class="bg">
 
     <div class="body-container">
 
         <!-- Header -->
         <header class="bg">
-            <nav class="navbar navbar-expand-lg nav-link">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <a class="navbar-brand logo-text" href="index.html">Rattus</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,57 +75,46 @@
             </nav>
         </header>
 
-
-        <div class="container">
-            <h2>Carousel Example</h2>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="la.jpg" alt="Los Angeles" style="width:100%;">
-                    </div>
-
-                    <div class="item">
-                        <img src="chicago.jpg" alt="Chicago" style="width:100%;">
-                    </div>
-
-                    <div class="item">
-                        <img src="ny.jpg" alt="New york" style="width:100%;">
-                    </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <a class="back" href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#f6f6f6" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z" />
+                        </svg>
+                    </a>
                 </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
         </div>
 
-
-        <div class="container-fluid frontpage-menu align-items-center justify-content-center d-flex" style="background-color: #0B261F;">
+        <div class="container-fluid py-4">
+            <div class="row align-items-center">
+                <div class="gallery">
+                    <div class="scroll">
+                        <img src="https://placekitten.com/300/300">
+                        <img src="https://placekitten.com/300/300">
+                        <img src="https://placekitten.com/300/300">
+                        <img src="https://placekitten.com/300/300">
+                        <img src="https://placekitten.com/300/300">
+                        <img src="https://placekitten.com/300/300">
+                        <img src="https://placekitten.com/300/300">
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Optional JavaScript; choose one of the two! -->
 
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </div>
 
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
 </body>
 
 </html>
