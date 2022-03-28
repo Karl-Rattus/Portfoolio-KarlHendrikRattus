@@ -11,6 +11,13 @@ body {
     color: var(--color-primary);
 }
 
+
+/*
+div {
+    border: 1px solid red;
+}
+*/
+
 header {
     background-color: #232324;
     padding: 2em;
@@ -27,19 +34,28 @@ nav {
     margin-left: 2rem;
 }
 
+.row {
+    height: 90vh;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    padding-left: 34px;
+    position: absolute;
+}
+
 .align-items-center {
     position: relative;
     align-items: center!important;
 }
 
 .gallery {
-    position: relative;
+    position: absolute;
     overflow-x: scroll;
 }
 
 .scroll {
     width: max-content;
-    padding-left: 28px;
+    padding-left: 24px;
+    ;
 }
 
 .logo-text {
