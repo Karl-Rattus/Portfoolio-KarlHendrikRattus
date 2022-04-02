@@ -24,6 +24,10 @@ header {
     text-align: center;
 }
 
+.modal-dialog {
+    max-width: 900px;
+}
+
 nav {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 500;
@@ -36,9 +40,7 @@ nav {
 
 .row {
     height: 90vh;
-    padding-top: 16px;
-    padding-bottom: 32px;
-    padding-left: 34px;
+    padding-left: 26px;
     position: absolute;
 }
 
@@ -77,4 +79,13 @@ h1 {
 
 h2 {
     font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+    position: relative;
+}
+
+.text-color {
+    color: #E5C3DB;
 }
