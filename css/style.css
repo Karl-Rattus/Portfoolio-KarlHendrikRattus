@@ -24,8 +24,12 @@ header {
     text-align: center;
 }
 
+.modal {
+    background: rgba(251, 234, 246, 0.84);
+}
+
 .modal-dialog {
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 nav {
@@ -70,7 +74,7 @@ nav {
 
 .hero-gradient {
     background: rgb(35, 35, 36);
-    background: linear-gradient(180deg, rgba(35, 35, 36, 1) 35%, rgba(134, 134, 134, 1) 77%, rgba(246, 246, 246, 1) 100%);
+    background: linear-gradient(180deg, rgba(35, 35, 36, 1) 33%, rgba(134, 134, 134, 1) 65%, rgba(231, 231, 232, 1) 100%);
 }
 
 h1 {
