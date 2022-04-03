@@ -29,7 +29,7 @@ header {
 }
 
 .modal-dialog {
-    max-width: 1000px;
+    max-width: absolute;
 }
 
 nav {
@@ -44,7 +44,6 @@ nav {
 
 .row {
     height: 90vh;
-    padding-left: 26px;
     position: absolute;
 }
 
