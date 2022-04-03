@@ -32,6 +32,16 @@ header {
     max-width: absolute;
 }
 
+.modal-lg {
+    max-width: 800px;
+}
+
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 4rem;
+}
+
 nav {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 500;
@@ -87,6 +97,26 @@ h2 {
 h3 {
     font-size: 30px;
     position: relative;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+@include media-breakpoint-up(sm) {
+    h4 {
+        font-size: 21px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    h4 {
+        font-size: 24px;
+    }
 }
 
 .text-color {
