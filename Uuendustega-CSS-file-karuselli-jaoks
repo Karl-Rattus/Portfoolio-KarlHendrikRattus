@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-family: gopher, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    -webkit-font-smoothing: antialiased;
+    background: #232324;
+    color: var(--color-primary);
+}
+
+/*
+div {
+    border: 1px solid red;
+}
+*/
+
+header {
+    background-color: #232324;
+    padding: 2em;
+    text-align: center;
+}
+
+nav {
+    font-family: roc-grotesk-wide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+.row {
+    height: 90vh;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    padding-left: 0px;
+    position: absolute;
+}
+
+.row .back {
+    padding-left: 42px;
+}
+
+.row .gallery{
+    padding-left: 66px;
+}
+
+.align-items-center {
+    position: relative;
+    align-items: center!important;
+}
+
+.gallery {
+    position: absolute;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding: initial;
+}
+
+.scroll {
+    display: flex;
+    flex-wrap: wrap;
+    width: max-content;
+    gap: 0px 24px;
+    /*padding-left: 24px;*/
+}
+
+.logo-text {
+    font-size: 48px;
+}
+
+/*svg {
+    border: 1px dashed indianred;
+}*/
+
+.frontpage-menu {
+    height: 100vh;
+}
+
+.hero-gradient {
+    background: rgb(35, 35, 36);
+    background: linear-gradient(180deg, rgba(35, 35, 36, 1) 35%, rgba(134, 134, 134, 1) 77%, rgba(246, 246, 246, 1) 100%);
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
