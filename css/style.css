@@ -62,15 +62,27 @@ nav {
     align-items: center!important;
 }
 
+.row .gallery {
+    padding-left: 66px;
+}
+
 .gallery {
     position: absolute;
     overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding: initial;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 535px;
 }
 
 .scroll {
+    display: flex;
+    flex-wrap: wrap;
     width: max-content;
-    padding-left: 24px;
-    ;
+    gap: 0px 24px;
 }
 
 .logo-text {
@@ -101,21 +113,20 @@ h3 {
 
 h4 {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 30px;
     text-align: center;
-    text-decoration-line: underline;
 }
 
-@include media-breakpoint-up(sm) {
+@include-media-breakpoint-up(sm) {
     h4 {
-        font-size: 21px;
+        font-size: 1rem;
     }
 }
 
-@include media-breakpoint-up(lg) {
+@include-media-breakpoint-up(lg) {
     h4 {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 }
 
