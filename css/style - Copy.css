@@ -64,17 +64,6 @@ nav {
     align-items: center!important;
 }
 
-.row .gallery {
-    padding-left: 66px;
-}
-
-.gallery {
-    position: absolute;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
-    padding: initial;
-}
-
 .img-fluid {
     max-width: 100%;
 }
@@ -121,4 +110,8 @@ h4 {
 
 .text-color {
     color: #E5C3DB;
+}
+
+svg {
+    color: #232324;
 }

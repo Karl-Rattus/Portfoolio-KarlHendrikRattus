@@ -1,4 +1,3 @@
-
 $primary: rgb(35, 35, 36);
 $secondary: $white;
 $danger: rgb(241, 47, 23);
@@ -9,8 +8,11 @@ $dark: #232424;
 $yiq-text-dark: #232424;
 $yiq-text-light: #F6F6F6;
 $body-color: rgb(246, 246, 246);
-$font-family-sans-serif: gopher, sans-serif;
-$headings-font-family: roc-grotesk-wide, sans-serif;;
+$font-family-sans-serif: gopher,
+sans-serif;
+$headings-font-family: roc-grotesk-wide,
+sans-serif;
+;
 $font-weight-bold: 500;
 $body-bg: $primary;
 $link-color: theme-color("secondary");
@@ -20,9 +22,11 @@ $nav-link-padding-y: 0.6rem;
 $nav-tabs-link-active-bg: rgb(246, 246, 246);
 $navbar-nav-link-padding-x: 1.2rem;
 $table-hover-color: rgb(35, 35, 36);
-$modal-content-bg: #E5C3DB;;
+$modal-content-bg: #E5C3DB;
+;
 $modal-header-padding-y: 1.3rem;
 $modal-content-color: #232324;
 $modal-header-border-color: rgba(0, 0, 0, 0);
 $navbar-dark-color: rgb(255, 255, 255);
 $carousel-control-color: rgba(0, 0, 0, 0);
+$enable-responsive-font-sizes: true;
