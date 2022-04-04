@@ -64,10 +64,6 @@ nav {
     align-items: center!important;
 }
 
-.img-fluid {
-    max-width: 100%;
-}
-
 .scroll {
     display: flex;
     flex-wrap: wrap;
